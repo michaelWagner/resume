@@ -17,11 +17,11 @@ class App extends Component {
             </nav>
           </ul>
           <Route
-            exact path={'/'}
+            exact path={'/resume'}
             render={({ match }) => <About resumeObj={resume} />}
           />
           <Route
-            exact path={'/projects'}
+            exact path={'/resume/projects'}
             render={({ match }) => <Projects resumeObj={resume} />}
           />
         </div>
