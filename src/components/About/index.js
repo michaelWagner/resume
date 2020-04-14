@@ -49,6 +49,7 @@ class About extends Component {
               <i className="fa fa-lg fa-user"></i>
               <span><strong>A</strong>bout</span>
             </h4>
+            <hr/>
             <p>{basics.summary}</p>
             <p>{basics.background}</p>
           </div>

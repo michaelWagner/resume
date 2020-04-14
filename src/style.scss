@@ -19,6 +19,12 @@
   }
 }
 
+.column-container {
+  margin: auto;
+  min-width: 280px;
+  width: 80%;
+}
+
 .card {
   border-radius: 5px;
   margin-bottom: 25px;
@@ -35,6 +41,8 @@
       line-height: 1.2;
       i {
         margin-right: 10px;
+        font-size: 20px;
+        vertical-align: text-bottom;
       }
       span {
         vertical-align: middle;

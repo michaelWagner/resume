@@ -1,69 +1,8 @@
-.column-container {
-  width: 80%;
-  min-width: 280px;
-  margin: auto;
-}
-
-// .profile {
-//   .profile-container {
-//     display: flex;
-//     flex-direction: column;
-//     @media (min-width: 768px) {
-//       flex-direction: row;
-//     }
-//     .profile-img {
-//       padding: 0;
-//       @media (min-width: 768px) {
-//         padding-right: 40px;
-//       }
-//       img {
-//         border-radius: 50%;
-//         width: 110px;
-//         height: 110px;
-//         flex: 1 0;
-//       }
-//     }
-//     .profile-details {
-//       flex: 1 1;
-//       text-align: center;
-//       @media (min-width: 768px) {
-//         text-align: left;
-//       }
-//       .contact-container {
-//         .profile-email, .profile-location {
-//           display: block;
-//           width: 100%;
-//           @media (min-width: 768px) {
-//             display: inline;
-//             width: 50%;
-//           }
-//           margin-right: 40px;
-//         }
-//       }
-//     }
-//   }
-
-//   .socials-container {
-//     text-align: center;
-//     @media (min-width: 768px) {
-//       text-align: left;
-//     }
-//     .social-item {
-//       i {
-//         vertical-align: sub;
-//         margin-right: 10px;
-//       }
-//     }
-//   }
-// }
-
 .card-section {
   padding-bottom: 0;
 }
 
 .project-image-container {
-  // max-height: 50vh;
-  // overflow: hidden;
   margin-bottom: 20px;
   img {
     width: 100%;
