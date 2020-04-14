@@ -22,7 +22,10 @@
 .column-container {
   margin: auto;
   min-width: 280px;
-  width: 80%;
+  width: 90%;
+  @media (min-width: 425px) {
+    width: 80%;
+  }
 }
 
 .card {
@@ -46,6 +49,7 @@
       }
       span {
         vertical-align: middle;
+        font-weight: 900;
       }
       p {
         margin-left: 28px;

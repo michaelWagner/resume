@@ -44,7 +44,6 @@ class About extends Component {
         <div className="card">
           <div className="card-section">
             <h4 className="section-header text-muted">
-              <i className="fa fa-lg fa-user"></i>
               <span>About</span>
             </h4>
             <hr/>
@@ -53,7 +52,6 @@ class About extends Component {
           </div>
           <div className="card-section">
             <h4 className="section-header text-muted">
-              <i className="fa fa-lg fa-pencil-square-o"></i>
               <span>Work Experience</span>
               </h4>
             <hr/>
@@ -81,7 +79,7 @@ class About extends Component {
                           <div className="project-link-wrapper">
                             <a href={`/resume/projects#${project.anchor}`} className="project-link">
                               <div className="project-thumb-wrapper">
-                                <img className="project-thumb" src={`resume/${project.image}`} alt={project.name} />
+                                <img className="project-thumb" src={project.image} alt={project.name} />
                                 <div className="project-details">
                                   <div className="project-header">
                                     {project.name}
@@ -91,6 +89,8 @@ class About extends Component {
                             </a>
                           </div>
                         )
+                      } else {
+                        return []
                       }
                     })
                   }
@@ -100,7 +100,6 @@ class About extends Component {
           </div>
           <div className="card-section">
             <h4 className="section-header text-muted">
-              <i className="fa fa-lg fa-code"></i>
               <span>Skills</span>
             </h4>
             <hr/>
@@ -116,7 +115,6 @@ class About extends Component {
           </div>
           <div className="card-section">
             <h4 className="section-header text-muted">
-              <i className="fa fa-lg fa-mortar-board"></i>
               <span>Education</span>
               </h4>
             <hr/>

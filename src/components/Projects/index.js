@@ -13,7 +13,6 @@ class Projects extends Component {
             {id === 0 &&
               <div className="card-section">
                 <h4 className="section-header text-muted">
-                  <i className="fa fa-lg fa-cloud"></i>
                   <span>Projects</span>
                 </h4>
                 <hr/>
