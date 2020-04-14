@@ -12,8 +12,8 @@ class App extends Component {
         <div className="app">
           <ul className="nav-container">
             <nav className="nav">
-              <NavLink exact to={'.'} className="nav-btn">About</NavLink>
-              <NavLink to={'/projects'} className="nav-btn">Projects</NavLink>
+              <NavLink exact to={'/resume'} className="nav-btn">About</NavLink>
+              <NavLink to={'/resume/projects'} className="nav-btn">Projects</NavLink>
             </nav>
           </ul>
           <Route
