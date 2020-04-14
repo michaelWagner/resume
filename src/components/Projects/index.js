@@ -8,9 +8,18 @@ class Projects extends Component {
   
     return (
       <div className="column-container">
-        {projects.map((project) =>
-          <div className="card">
-            <div className="card-section">
+        {projects.map((project, id) =>
+          <div className="card" key={id}>
+            {id === 0 &&
+              <div className="card-section">
+                <h4 className="section-header text-muted">
+                  <i className="fa fa-lg fa-cloud"></i>
+                  <span>Projects</span>
+                </h4>
+                <hr/>
+              </div>
+            }
+            <div className="card-section" id={project.anchor}>
               <div className="project-image-container">
                 <img src={project.image} alt={project.name} />
               </div>

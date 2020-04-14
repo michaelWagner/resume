@@ -5,7 +5,7 @@ import style from './style.scss'
 
 class About extends Component {
   render() {
-    const { basics, work, skills, education } = this.props.resumeObj
+    const { basics, work, skills, education, projects } = this.props.resumeObj
   
     return (
       <div className="column-container">
@@ -25,7 +25,7 @@ class About extends Component {
                   </span>
                   <span className="profile-location">
                     <i className="fa fa-lg fa-map-marker"></i>
-                    <span>{basics.location.city}, {basics.location.region} {basics.location.countryCode}</span>
+                    <span>{basics.location.city}, {basics.location.region}</span>
                   </span>
                 </div>
               </div>
@@ -45,7 +45,7 @@ class About extends Component {
           <div className="card-section">
             <h4 className="section-header text-muted">
               <i className="fa fa-lg fa-user"></i>
-              <span><strong>A</strong>bout</span>
+              <span>About</span>
             </h4>
             <hr/>
             <p>{basics.summary}</p>
@@ -54,7 +54,7 @@ class About extends Component {
           <div className="card-section">
             <h4 className="section-header text-muted">
               <i className="fa fa-lg fa-pencil-square-o"></i>
-              <span><strong>W</strong>ork <strong>E</strong>xperience</span>
+              <span>Work Experience</span>
               </h4>
             <hr/>
             <ul className="experience-list">
@@ -73,6 +73,27 @@ class About extends Component {
                       <li className="highlight">{highlight}</li>
                     )}
                   </ul>
+                  {
+                    projects.map((project) => {
+                      const image = experience.company === project.company ? project.image : null
+                      if (image) {
+                        return (
+                          <div className="project-link-wrapper">
+                            <a href={`/resume/projects#${project.anchor}`} className="project-link">
+                              <div className="project-thumb-wrapper">
+                                <img className="project-thumb" src={`resume/${project.image}`} alt={project.name} />
+                                <div className="project-details">
+                                  <div className="project-header">
+                                    {project.name}
+                                  </div>
+                                </div>
+                              </div>
+                            </a>
+                          </div>
+                        )
+                      }
+                    })
+                  }
                 </li>
               )}
             </ul>
@@ -80,7 +101,7 @@ class About extends Component {
           <div className="card-section">
             <h4 className="section-header text-muted">
               <i className="fa fa-lg fa-code"></i>
-              <span><strong>S</strong>kills</span>
+              <span>Skills</span>
             </h4>
             <hr/>
             <div className="skills-list">
@@ -96,7 +117,7 @@ class About extends Component {
           <div className="card-section">
             <h4 className="section-header text-muted">
               <i className="fa fa-lg fa-mortar-board"></i>
-              <span><strong>E</strong>ducation</span>
+              <span>Education</span>
               </h4>
             <hr/>
             <ul className="experience-list">

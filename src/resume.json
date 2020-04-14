@@ -117,10 +117,11 @@
         "Google", "IO", "Events"
       ],
       "url": "https://events.google.com/io/mission/",
+      "anchor": "googleio",
       "roles": [ 
         "Front End Developer"
       ],
-      "entity": "Google",
+      "company": "Left Field Labs",
       "type": "application"
     },
     {
@@ -135,10 +136,11 @@
       "keywords": [
         "AWS", "Amazon", "AI"
       ],
+      "anchor": "aws",
       "roles": [ 
         "Front End Developer"
       ],
-      "entity": "Accomplice",
+      "company": "Accomplice",
       "type": "application"
     },
     {
@@ -154,10 +156,11 @@
         "Google", "Opensource", "EdTech"
       ],
       "url": "https://www.oppia.org/",
+      "anchor": "oppia",
       "roles": [ 
         "Front End Developer"
       ],
-      "entity": "Google",
+      "company": "Oppia",
       "type": "application"
     }
   ],

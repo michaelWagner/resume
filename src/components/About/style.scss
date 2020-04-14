@@ -83,6 +83,34 @@
         font-size: 14px;
       }
     }
+    .project-link-wrapper {
+      display: inline-block;
+      margin: 30px 0 5px;
+      &:hover {
+        .project-link {
+          .project-thumb-wrapper {
+            .project-details {
+              color: #333;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .project-link {
+        .project-thumb-wrapper {
+          height: auto;
+          width: 100%;
+          .project-thumb {
+            width: 155px;
+          }
+          .project-details {
+            color: #777;
+            margin-top: 5px;
+            text-decoration: none !important;
+          }
+        }
+      }
+    }
   }
 }
 
