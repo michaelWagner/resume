@@ -1,0 +1,51 @@
+@import "~bootstrap/scss/bootstrap";
+
+.app {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px 0;
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.nav-container {
+  margin: 0 10% 40px;
+  padding: 0; 
+  .nav {
+    text-align: right;
+    display: block;
+    .nav-btn {
+      margin-left: 20px;
+    }
+  }
+}
+
+.card {
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding: 7%;
+  background-color: #fff;
+  .card-section {
+    text-align: left;
+    &:not(:first-of-type) {
+      padding-top: 40px;
+    }
+    .section-header {
+      font-variant: small-caps;
+      font-size: 18px;
+      line-height: 1.2;
+      i {
+        margin-right: 10px;
+      }
+      span {
+        vertical-align: middle;
+      }
+      p {
+        margin-left: 28px;
+      }
+    }
+  }
+}
+
+.text-muted {
+  color: #777;
+}

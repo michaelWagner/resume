@@ -1,0 +1,93 @@
+.column-container {
+  width: 80%;
+  min-width: 280px;
+  margin: auto;
+}
+
+.profile {
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+    .profile-img {
+      padding: 0;
+      @media (min-width: 768px) {
+        padding-right: 40px;
+      }
+      img {
+        border-radius: 50%;
+        width: 110px;
+        height: 110px;
+        flex: 1 0;
+      }
+    }
+    .profile-details {
+      flex: 1 1;
+      text-align: center;
+      @media (min-width: 768px) {
+        text-align: left;
+      }
+      .contact-container {
+        .profile-email, .profile-location {
+          display: block;
+          font-size: 0.8em;
+          width: 100%;
+          margin-right: 40px;
+          @media (min-width: 768px) {
+            display: inline;
+            width: 50%;
+          }
+          i {
+            margin-right: 10px;
+          }
+          span, span a {
+            color: #333;
+          }
+        }
+      }
+    }
+  }
+
+  .socials-container {
+    text-align: center;
+    @media (min-width: 768px) {
+      text-align: left;
+    }
+    .social-item {
+      i {
+        vertical-align: sub;
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.experience-list, .education-list {
+  .experience-item, .education-item {
+    list-style: none;
+    margin-bottom: 15px;
+    .header {
+      line-height: 1.5;
+    }
+    .dates {
+      margin-bottom: 4px;
+    }
+    .highlights {
+      .highlight {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.skills-list {
+  .skill-item {
+    border-left: 9px solid #555;
+    padding-left: 7%;
+    .skill {
+      margin-right: 7px;
+    }
+  }
+}

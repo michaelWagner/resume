@@ -1,0 +1,201 @@
+{ 
+  "meta": { "theme": "kwan" },
+  "basics": {
+    "name": "Mikey Wagner",
+    "label": "Front End Developer",
+    "picture": "https://lh3.googleusercontent.com/H5_pV6e5KQu-GJkBu2WIdiMGzaff9xK9WMbwomutnDcaXke7BEcF9zJG9Slw58NVS6wGi_g2sbChD0NlZiCplEbL0ddWpro-9dobk9nz84hfqyrhBb_NARKgORnOBkkKVnpcV3SDPybbJglCeOIIcE0aW2vJFp9pCQajr5qmdtcDENgYBi2rSveAiIdK-J-f4805RWA_LnYg3e6ZX0Djc-XgsN4OhFxNl5LltHztVG6XEkdUeuQ2eBRmriw6rV01CC0yCJ7OntEULmQS4SVk2l6IadhTFGcUvmKJhHhw-StXFFRTuzM0zvH7yUpBpNaapS03ywx6tBPUwgfbICnWOl_swEJ82yFzrxMDv_u_LVvWXFgWNok8MwOkY0jwY_NZKlX4x7ApFXt0bxKaqjOCDQb8TMB7wYQymjNawv_vROKDvJozZ6vDHGj8R-Ks_rvWTGWqtjFgfWxAvtBVjUHEkhKgPr68qYKs2pfIF_M6B2ZDMvw1W1eBeELWSQ-7KQcN7ORbqn3ZPMxSOMbdLFCICaxkedTngT8oHKHlaDmExJvoiDWwtDwJ-PmwC0pwYUcTl9cd4XXSW3VjINjfTKSr_AdyMOdQb72ncdEyVZR-TO3OJF9DJYm6uGUJPq3ri0tO3MEcXSMAEQvZZfQbS9CIe8Qsan8uujVF9eKL_VQI4tsisWlGgM2zv2kh_onV5Q=s512-no",
+    "email": "wagnerdmike@gmail.com",
+    "summary": "Front End Developer with a love for spicy foods, problem solving, and discovering new music. I create, build, iterate, refactor, and review.",
+    "background": "Recently, I delivered a highly collaborative and scaled game where Google developers could reveal the date for the upcoming I/O conference by solving interactive puzzles. Previously, I have rapidly architected, implemented, and delivered responsive applications under tight deadlines using Scrum methodologies for companies like Honda, AT&T, AWS, and Intuit. During my time working with Honda, I was given the task of building a prototype for their upcoming car’s dashboard experience, and got to collaborate with the small R&D team. Additionally I was part of the team that built an enterprise level application for AT&T to help businesses dynamically select and configure complex VPN packages.",
+    "location": {
+      "city": "Los Angeles",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Instagram",
+        "username": "mikeythekid",
+        "url": "https://instagram.com/mikeythekid"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Left Field Labs",
+      "position": "Front End Developer (Google Contractor)",
+      "website": "https://www.leftfieldlabs.com/",
+      "startDate": "2019-11-01",
+      "endDate": "2020-04-11",
+      "highlights": [
+        "Create and maintain responsive web applications across mutiple Google products",
+        "Develop and test new features",
+        "Participate in code reviews and growth sessions",
+        "Debug development and production issues across multiple browsers and devices"
+      ]
+    },
+    {
+      "company": "Accomplice",
+      "position": "Front End Developer",
+      "website": "https://accpl.co/",
+      "startDate": "2017-08-01",
+      "endDate": "2019-10-01",
+      "highlights": [
+        "Build interactive and dynamic applications for high profile clients (Honda, AT&T, AWS, Intuit) on a fully distributed team using Angular 2+, React, AngularJS, and Vue.",
+        "Use scrum methodologies to meet production deadlines and plan sprints.",
+        "Maintain and develop features using modern development best practices and design patterns, participate in code reviews, pair programming and testing.",
+        "Mentoring new developers and documenting processes."
+      ]
+    },
+    {
+      "company": "Mirum",
+      "position": "Front End Developer",
+      "website": "https://www.mirumagency.com/",
+      "startDate": "2015-09-01",
+      "endDate": "2017-03-01",
+      "highlights": [
+        "Work with interactive team to rapidly architect, implement, and deploy E-commerce sites for brand development using JavaScript, C#, Node.js, Asp.Net, jQuery, React, Grunt, and postgreSQL.",
+        "Promote best practices and standards while developing with bleeding edge technologies"
+      ]
+    },
+    {
+      "company": "Oppia",
+      "position": "Software Engineer",
+      "website": "http://oppia.org",
+      "startDate": "2013-06-01",
+      "endDate": "2017-10-01",
+      "highlights": [
+        "Designed and developed the music staff widget, a draggable/droppable interface in JavaScript & Python that I created to teach music theory intuitively.",
+        "TDD in Jasmine and Karma, hotfixes, feature implementation, and release documentation.",
+        "Partnered with a small team of Google developers to develop and test platform."
+      ]
+    },
+    {
+      "company": "Self Employed | Contractor",
+      "position": "Software Engineer",
+      "website": "https://oppia.org",
+      "startDate": "2017-03-01",
+      "endDate": "2017-08-01",
+      "highlights": [
+        "Rapidly build websites and custom WordPress themes for multiple clients.",
+        "Pixel perfect and responsive front-end implementations per designer’s mocks.",
+        "Regular maintenance and security updates to existing sites."
+      ]
+    },
+    {
+      "company": "Jack's Mannequin / Andrew McMahon in the Wilderness",
+      "position": "Musician",
+      "website": "https://www.andrewmcmahon.com/",
+      "startDate": "2010-08-01",
+      "endDate": "2020-04-01",
+      "highlights": [
+        "Toured internationally, performed, and released albums on Warner Bros.",
+        "Made appearances on television and radio including the Tonight Show, Conan, Jimmy Kimmel, and KROQ."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Google IO Save the Date",
+      "description": "A highly interactive and visually exciting game built for Google developers to collaboratively reveal the dates for the upcoming Google I/O event.",
+      "image": "images/google-io.png",
+      "highlights": [ 
+        "Built using Preact, MobX, Firebase, PixiJs, and TypeScript",
+        "Praised by developers on twitter and reddit for being a fun, challening, and unable to hack"
+      ],
+      "keywords": [
+        "Google", "IO", "Events"
+      ],
+      "url": "https://events.google.com/io/mission/",
+      "roles": [ 
+        "Front End Developer"
+      ],
+      "entity": "Google",
+      "type": "application"
+    },
+    {
+      "name": "AWS AI Game",
+      "description": "Accomplice teamed up with Accenture to deliver an interactive game that integrated AWS’s machine learning and facial recognition at the 2017 AWS RE:INVENT convention in Las Vegas. Continuously learning from human input, the AI got smarter and smarter as AWS re:Invent went on. With every new player, it picked up new insight and became more skillful. So skillful, in fact, that we had to ultimately tweak the code to make sure it was still fun for participants to play.",
+      "image": "images/aws4.jpg",
+      "highlights": [ 
+        "Built using Angular, Amazon Rekognition, and TypeScript",
+        "Multi-player game that showcases AWS facial recognition tech",
+        "Showcased at AWS convention in Las Vegas"
+      ],
+      "keywords": [
+        "AWS", "Amazon", "AI"
+      ],
+      "roles": [ 
+        "Front End Developer"
+      ],
+      "entity": "Accomplice",
+      "type": "application"
+    },
+    {
+      "name": "Oppia",
+      "description": "Oppia is an online and open source learning tool that enables anyone to easily create and share interactive activities. These activities, called explorations, simulate a one-on-one conversation with an intelligent tutor. Oppia supports learning by doing. Your exploration can include embedded code editors, dynamic world maps, and many other options for interaction.",
+      "image": "images/oppia.png",
+      "highlights": [ 
+        "Built using AngularJS, Python, HTML5, jQuery, Bootstrap, Protractor, and Karma",
+        "Opensource and highly extensible Ed-Tech platform",
+        "Maintained by a small team of Google developers"
+      ],
+      "keywords": [
+        "Google", "Opensource", "EdTech"
+      ],
+      "url": "https://www.oppia.org/",
+      "roles": [ 
+        "Front End Developer"
+      ],
+      "entity": "Google",
+      "type": "application"
+    }
+  ],
+  "education": [
+    {
+      "institution": "App Academy",
+      "area": "Software Development",
+      "studyType": "Certificate",
+      "startDate": "2015-04-01",
+      "endDate": "2015-08-01"
+    },
+    {
+      "institution": "MitX",
+      "area": "Software Development",
+      "studyType": "Certificate",
+      "startDate": "2013-09-01",
+      "endDate": "2014-01-01"
+    },
+    {
+      "institution": "Santa Monica College",
+      "area": "Software Development",
+      "studyType": "Certificate",
+      "startDate": "2005-08-01",
+      "endDate": "2007-07-01"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Front End Development",
+      "level": "Senior",
+      "keywords": [
+        "ReactJS",
+        "Angular",
+        "AngularJS",
+        "ES6",
+        "JavaScript",
+        "TypeScript",
+        "HTML5",
+        "CSS3",
+        "Git",
+        "GraphQL",
+        "Ruby on Rails",
+        "SCSS",
+        "Node",
+        "Grunt",
+        "PostgreSQL",
+        "Adobe Suite"
+      ]
+    }
+  ]
+}
