@@ -17,6 +17,16 @@
         "network": "Instagram",
         "username": "mikeythekid",
         "url": "https://instagram.com/mikeythekid"
+      },
+      {
+        "network": "Linkedin",
+        "username": "mikeywagner",
+        "url": "https://www.linkedin.com/in/mikeywagner/"
+      },
+      {
+        "network": "Github",
+        "username": "michaelwagner",
+        "url": "https://github.com/michaelWagner"
       }
     ]
   },

@@ -34,10 +34,8 @@ class About extends Component {
             <div className="socials-container">
               {basics.profiles.map((profile) => 
                 <span className="social-item">
-                  <a href={profile.url}>
-                    <i className={`fa fa-${profile.network.toLowerCase()} fa-2x`}></i>
-                    {profile.username}
-                    </a>
+                  <a href={profile.url} className="text-muted">
+                    <i className={`fa fa-${profile.network.toLowerCase()} fa-2x`}></i></a>
                 </span>
               )}
             </div>

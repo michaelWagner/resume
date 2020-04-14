@@ -50,12 +50,19 @@
   .socials-container {
     text-align: center;
     @media (min-width: 768px) {
-      text-align: left;
+      text-align: center;
     }
     .social-item {
-      i {
-        margin-right: 10px;
-        vertical-align: sub;
+      margin: 0 20px;
+      a {
+        i {
+          font-size: 18px;
+          margin-right: 10px;
+          vertical-align: middle;
+          &:hover {
+            color: #333;
+          }
+        }
       }
     }
   }
