@@ -78,7 +78,11 @@ const About = (props) => {
             {work.map((experience, id) => 
               <li className="experience-item" key={id}>
                 <div className="header">
-                  <strong>{experience.position}</strong> - <a href={experience.website}>{experience.company}</a>
+                  <strong>{experience.position}</strong> - {
+                    experience.website
+                    ? <a href={experience.website}>{experience.company}</a>
+                    : <span class="experience-company">{experience.company}</span>
+                  }
                 </div>
                 <div className="dates text-muted">
                   <small><Moment format="MMM YYYY">{experience.startDate}</Moment></small>
@@ -162,7 +166,7 @@ const About = (props) => {
             {education.map((school, id) => 
               <li className="education-item" key={id}>
                 <div className="header">
-                {school.area}, {school.studyType} {isMobile && '-'} <span>{school.institution}</span>
+                {school.area}, {school.studyType} {isMobile && '-'} <span className="school-name">{school.institution}</span>
                 </div>
                 <div className="dates text-muted">
                   <small><Moment format="MMM YYYY">{school.startDate}</Moment></small>

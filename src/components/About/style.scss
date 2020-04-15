@@ -81,12 +81,16 @@
           opacity: 1;
         }
       }
-      span {
+      .school-name {
         display: block;
         font-weight: 900;
         @media (min-width: 768px) {
           display: inline;
         }
+      }
+      .experience-company {
+        opacity: 0.8;
+        color: #E94048;
       }
     }
     .dates {
