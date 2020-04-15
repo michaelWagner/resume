@@ -12,19 +12,19 @@ class App extends Component {
         <div className="app">
           <ul className="nav-container">
             <nav className="nav">
-              <NavLink to={'/resume/about'} className="nav-btn">About</NavLink>
-              <NavLink to={'/resume/projects'} className="nav-btn">Projects</NavLink>
+              <NavLink to={'/about'} className="nav-btn">About</NavLink>
+              <NavLink to={'/projects'} className="nav-btn">Projects</NavLink>
             </nav>
           </ul>
           <Route
-            path={'/resume'}
+            path={'/resume/about'}
             render={({ match }) => <About resumeObj={resume} />}
           />
           <Route
             path={'/resume/projects'}
             render={({ match }) => <Projects resumeObj={resume} />}
           />
-          <Redirect exact from="/resume" to={'/resume/about'} />
+          <Redirect exact from="/resume" to={'/about'} />
         </div>
       </Router>
     );
