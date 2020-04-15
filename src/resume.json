@@ -51,10 +51,10 @@
       "startDate": "2017-08-01",
       "endDate": "2019-10-01",
       "highlights": [
-        "Build interactive and dynamic applications for high profile clients (Honda, AT&T, AWS, Intuit) on a fully distributed team using Angular 2+, React, AngularJS, and Vue.",
-        "Use scrum methodologies to meet production deadlines and plan sprints.",
-        "Maintain and develop features using modern development best practices and design patterns, participate in code reviews, pair programming and testing.",
-        "Mentoring new developers and documenting processes."
+        "Build interactive and dynamic applications for high profile clients (Honda, AT&T, AWS, Intuit) on a fully distributed team using Angular 2+, React, AngularJS, and Vue",
+        "Use scrum methodologies to meet production deadlines and plan sprints",
+        "Maintain and develop features using modern development best practices and design patterns, participate in code reviews, pair programming and testing",
+        "Mentoring new developers and documenting processes"
       ]
     },
     {
@@ -64,7 +64,8 @@
       "startDate": "2015-09-01",
       "endDate": "2017-03-01",
       "highlights": [
-        "Work with interactive team to rapidly architect, implement, and deploy E-commerce sites for brand development using JavaScript, C#, Node.js, Asp.Net, jQuery, React, Grunt, and postgreSQL.",
+        "Work with interactive team to rapidly architect, implement, and deploy sites for clients such as Walmart, Publix, and Tresemme",
+        "Brand development using React, JavaScript, C#, Node.js, Asp.Net, jQuery, Grunt, and postgreSQL",
         "Promote best practices and standards while developing with bleeding edge technologies"
       ]
     },
@@ -75,9 +76,9 @@
       "startDate": "2013-06-01",
       "endDate": "2017-10-01",
       "highlights": [
-        "Designed and developed the music staff widget, a draggable/droppable interface in JavaScript & Python that I created to teach music theory intuitively.",
-        "TDD in Jasmine and Karma, hotfixes, feature implementation, and release documentation.",
-        "Partnered with a small team of Google developers to develop and test platform."
+        "Designed and developed the music staff widget, a draggable/droppable interface in JavaScript & Python that I created to teach music theory intuitively",
+        "TDD in Jasmine and Karma, hotfixes, feature implementation, and release documentation",
+        "Partnered with a small team of Google developers to develop and test platform"
       ]
     },
     {
@@ -87,9 +88,9 @@
       "startDate": "2017-03-01",
       "endDate": "2017-08-01",
       "highlights": [
-        "Rapidly build websites and custom WordPress themes for multiple clients.",
-        "Pixel perfect and responsive front-end implementations per designer’s mocks.",
-        "Regular maintenance and security updates to existing sites."
+        "Rapidly build websites and custom WordPress themes for multiple clients",
+        "Pixel perfect and responsive front-end implementations per designer’s mocks",
+        "Regular maintenance and security updates to existing sites"
       ]
     },
     {
@@ -99,8 +100,8 @@
       "startDate": "2010-08-01",
       "endDate": "2020-04-01",
       "highlights": [
-        "Toured internationally, performed, and released albums on Warner Bros.",
-        "Made appearances on television and radio including the Tonight Show, Conan, Jimmy Kimmel, and KROQ."
+        "Toured internationally, performed, and released albums on Warner Bros",
+        "Made appearances on television and radio including the Tonight Show, Conan, Jimmy Kimmel, and KROQ"
       ]
     }
   ],
@@ -181,10 +182,22 @@
     },
     {
       "institution": "Santa Monica College",
-      "area": "Software Development",
-      "studyType": "Certificate",
+      "area": "Applied Music",
+      "studyType": "AA",
       "startDate": "2005-08-01",
       "endDate": "2007-07-01"
+    }
+  ],
+  "references": [
+    {
+      "name": "Anye Freer",
+      "relation": "Software Architect",
+      "quote": "Mikey was an Angular developer on my team for about two years, our work encompassed several projects, some with much higher than average complexity. He is truly a pleasure to work with, he always has a positive 'can-do' attitude and if he doesn't know something is not afraid to ask or to research it. He is always willing to pitch in and try something new, even if it's not a true development task. He never takes constructive criticism personally; he's always willing to go back and rework a feature to make it even better, which is of course how we all improve our skills over time. He is very sociable and gets along with just about everybody - he's good with both clients and colleagues which is something I definitely can't say about every developer I've worked with! Mikey is a hard worker and a great person to have on your team and I'd really enjoy working with him again given the opportunity."
+    },
+    {
+      "name": "Brook Hutchinson",
+      "relation": "Senior Developer on team",
+      "quote": "Really enjoyed working with Mikey. His ability to articulate complicated Angular topics was invaluable and his understanding of Git is second to none. Mikey is a true IT Professional. He understands the importance of maintaining a positive, professional attitude in the workplace."
     }
   ],
   "skills": [

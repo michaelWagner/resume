@@ -2,9 +2,9 @@
 
 .app {
   text-align: center;
-  background-color: #f0f0f0;
+  background-color: #fff;
   padding: 20px 0;
-  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Titillium Web', sans-serif
 }
 
 .nav-container {
@@ -15,7 +15,22 @@
     display: block;
     .nav-btn {
       margin-left: 20px;
+      font-variant-caps: all-small-caps;
+      color: #E94048;
+      font-size: 20px;
+      font-weight: 900;
+      &:hover {
+        color: #777;
+      }
     }
+  }
+}
+
+a, Link {
+  text-decoration: none !important;
+  color: #333;
+  &:hover {
+    color: #777;
   }
 }
 
@@ -31,7 +46,8 @@
 .card {
   border-radius: 5px;
   margin-bottom: 25px;
-  padding: 7%;
+  border-color: #fff;
+  padding: 5% 7%;
   background-color: #fff;
   .card-section {
     text-align: left;
@@ -39,21 +55,32 @@
       padding-top: 40px;
     }
     .section-header {
-      font-variant: small-caps;
-      font-size: 18px;
+      font-size: 21px;
+      font-variant-caps: all-small-caps;
       line-height: 1.2;
+      color: #E94048;
       i {
         margin-right: 10px;
         font-size: 20px;
         vertical-align: text-bottom;
       }
       span {
-        vertical-align: middle;
+        color: #E94048;
         font-weight: 900;
+        vertical-align: middle;
       }
       p {
         margin-left: 28px;
       }
+      a {
+        color: #E94048;
+        font-weight: 700;
+      }
+    }
+    .section-description {
+      font-size: 20px;
+      color: #333;
+      line-height: 1.4;
     }
   }
 }

@@ -50,10 +50,13 @@
   .socials-container {
     text-align: center;
     @media (min-width: 768px) {
-      text-align: center;
+      text-align: left;
     }
     .social-item {
-      margin: 0 20px;
+      margin: 0 0 0 10px;
+      @media (min-width: 768px) {
+        margin: 0 20px 0 0;
+      }
       a {
         i {
           font-size: 18px;
@@ -74,6 +77,10 @@
     margin-bottom: 15px;
     .header {
       line-height: 1.5;
+      opacity: 0.8;
+      a {
+        color: #E94048;
+      }
     }
     .dates {
       margin-bottom: 4px;
@@ -101,12 +108,21 @@
           height: auto;
           width: 100%;
           .project-thumb {
-            width: 155px;
+            max-width: 435px;
+            width: 100%
           }
           .project-details {
             color: #777;
             margin-top: 5px;
             text-decoration: none !important;
+            .project-header {
+              font-size: 16px;
+              color: #E94048;
+              opacity: 0.8;
+              &:hover {
+                color: #777;
+              }
+            }
           }
         }
       }
@@ -114,13 +130,27 @@
   }
 }
 
-.skills-list {
+.skills-list, .reference-list {
   .skill-item {
-    border-left: 9px solid #555;
     padding-left: 7%;
     .skill {
       margin-right: 7px;
       white-space: pre;
+    }
+  }
+  .reference-item {
+    margin: 40px 0 20px;
+    border-left: 9px solid #555;
+    padding-left: 7%;
+    .quote {
+      color: #444;
+    }
+  }
+  .quote-details {
+    margin-left: 15%;
+    .quote-author {
+    }
+    .quote-relation {
     }
   }
 }

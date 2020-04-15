@@ -26,10 +26,10 @@ class Projects extends Component {
                 {project.url ? <a href={project.url}>{project.name}</a> : <span>{project.name}</span>
                 }
               </h4>
-              <div className="section-description text-muted">
+              <div className="section-description">
                 <small>{project.description}</small>
               </div>
-              <ul className="project-highlights">
+              <ul className="project-highlights text-muted">
                 {project.highlights.map((highlight) =>
                   <li className="highlight">{highlight}</li>
                 )}
