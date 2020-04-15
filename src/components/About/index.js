@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, { Component } from 'react'
+import { HashLink as Link } from 'react-router-hash-link';
 import Moment from 'react-moment';
 import style from './style.scss'
 
@@ -77,7 +78,7 @@ class About extends Component {
                       if (image) {
                         return (
                           <div className="project-link-wrapper">
-                            <a href={`/resume/projects#${project.anchor}`} className="project-link">
+                            <Link to={`/resume/projects#${project.anchor}`} className="project-link">
                               <div className="project-thumb-wrapper">
                                 <img className="project-thumb" src={project.image} alt={project.name} />
                                 <div className="project-details">
@@ -86,7 +87,7 @@ class About extends Component {
                                   </div>
                                 </div>
                               </div>
-                            </a>
+                            </Link>
                           </div>
                         )
                       } else {
