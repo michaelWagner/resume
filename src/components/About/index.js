@@ -105,7 +105,7 @@ const About = (props) => {
                               <img className="project-thumb" src={project.image} alt={project.name} />
                               <div className="project-details">
                                 <div className="project-header">
-                                  <span className="arrrow-right">→</span> {project.name}
+                                  <span className="arrow-right">→</span> {project.name}
                                 </div>
                               </div>
                             </div>

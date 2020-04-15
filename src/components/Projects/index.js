@@ -22,7 +22,14 @@ const Projects = (props) => {
               <img src={project.image} alt={project.name} />
             </div>
             <h4 className="section-header">
-              {project.url ? <a href={project.url}>{project.name}</a> : <span>{project.name}</span>
+              {
+                project.url
+                ? (
+                  <>
+                    <span className="arrow-right">→</span> <a href={project.url}>{project.name}</a>
+                  </>
+                )
+                : <span>{project.name}</span>
               }
             </h4>
             <div className="section-description">
