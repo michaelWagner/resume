@@ -81,6 +81,13 @@
           opacity: 1;
         }
       }
+      span {
+        display: block;
+        font-weight: 900;
+        @media (min-width: 768px) {
+          display: inline;
+        }
+      }
     }
     .dates {
       margin-bottom: 4px;
@@ -138,6 +145,7 @@
     .skill {
       margin-right: 7px;
       white-space: pre;
+      display: inline-block;
     }
   }
   .reference-item {
