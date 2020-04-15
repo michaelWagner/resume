@@ -174,7 +174,7 @@
       "endDate": "2015-08-01"
     },
     {
-      "institution": "MitX",
+      "institution": "MITx",
       "area": "Software Development",
       "studyType": "Certificate",
       "startDate": "2013-09-01",
@@ -191,12 +191,12 @@
   "references": [
     {
       "name": "Anye Freer",
-      "relation": "Software Architect",
+      "relation": "Software Architect/Direct Manager",
       "quote": "Mikey was an Angular developer on my team for about two years, our work encompassed several projects, some with much higher than average complexity. He is truly a pleasure to work with, he always has a positive 'can-do' attitude and if he doesn't know something is not afraid to ask or to research it. He is always willing to pitch in and try something new, even if it's not a true development task. He never takes constructive criticism personally; he's always willing to go back and rework a feature to make it even better, which is of course how we all improve our skills over time. He is very sociable and gets along with just about everybody - he's good with both clients and colleagues which is something I definitely can't say about every developer I've worked with! Mikey is a hard worker and a great person to have on your team and I'd really enjoy working with him again given the opportunity."
     },
     {
       "name": "Brook Hutchinson",
-      "relation": "Senior Developer on team",
+      "relation": "Senior Developer/Teammate",
       "quote": "Really enjoyed working with Mikey. His ability to articulate complicated Angular topics was invaluable and his understanding of Git is second to none. Mikey is a true IT Professional. He understands the importance of maintaining a positive, professional attitude in the workplace."
     }
   ],

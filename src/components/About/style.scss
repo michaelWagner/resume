@@ -32,10 +32,6 @@
           line-height: 22px;
           margin-right: 40px;
           width: 100%;
-          @media (min-width: 768px) {
-            display: inline;
-            width: 50%;
-          }
           i {
             margin-right: 10px;
           }
@@ -55,7 +51,7 @@
     .social-item {
       margin: 0 0 0 10px;
       @media (min-width: 768px) {
-        margin: 0 20px 0 0;
+        margin: 0 28px 0 0;
       }
       a {
         i {
@@ -72,22 +68,29 @@
 }
 
 .experience-list, .education-list {
+  padding: 0;
   .experience-item, .education-item {
     list-style: none;
     margin-bottom: 15px;
     .header {
       line-height: 1.5;
-      opacity: 0.8;
       a {
+        opacity: 0.8;
         color: #E94048;
+        &:hover {
+          opacity: 1;
+        }
       }
     }
     .dates {
       margin-bottom: 4px;
     }
     .highlights {
+      padding: 0 28px;
       .highlight {
         font-size: 14px;
+        line-height: 1.7;
+        list-style: circle;
       }
     }
     .project-link-wrapper {
@@ -120,7 +123,7 @@
               color: #E94048;
               opacity: 0.8;
               &:hover {
-                color: #777;
+                opacity: 1;
               }
             }
           }
@@ -132,7 +135,6 @@
 
 .skills-list, .reference-list {
   .skill-item {
-    padding-left: 7%;
     .skill {
       margin-right: 7px;
       white-space: pre;
@@ -151,6 +153,8 @@
     .quote-author {
     }
     .quote-relation {
+      font-size: 14px;
+      color: #444;
     }
   }
 }

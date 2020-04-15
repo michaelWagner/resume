@@ -122,7 +122,8 @@ class About extends Component {
                     </div>
                   </div>
                   <div className="quote-details">
-                    <span className="quote-author">{reference.name}</span> - <em><span className="quote-relation">{reference.relation}</span></em>
+                    <div className="quote-author">{reference.name}</div>
+                    <em><div className="quote-relation">{reference.relation}</div></em>
                   </div>
                 </>
               )}
