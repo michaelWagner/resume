@@ -17,7 +17,7 @@ class App extends Component {
             </nav>
           </ul>
           <Route
-            path={'/resume/about'}
+            path={'/resume'}
             render={({ match }) => <About resumeObj={resume} />}
           />
           <Route
