@@ -58,7 +58,7 @@ const About = (props) => {
             detail and a firm belief in the power of constant iteration.</p>
           <p>Most recently, I delivered a highly collaborative and scaled game
               for <strong>Google</strong> where developers could reveal the date for the upcoming
-              I/O conference by solving interactive puzzles. </p>
+              Google I/O conference by solving interactive puzzles.</p>
           <p>Previously, I have rapidly architected, implemented, and delivered
               responsive applications under tight deadlines using Scrum
               methodologies for companies like <strong>Honda</strong>
@@ -67,7 +67,7 @@ const About = (props) => {
               ,  <strong>Intuit</strong>, and more.</p>
           <p>When I’m not coding, you’ll usually find me slurping a deep bowl
               of ramen (send any recommendations my way!), playing music, and/or
-              traveling the world—often at the same time. </p>
+              traveling the world—often at the same time.</p>
         </div>
         <div className="card-section">
           <h4 className="section-header text-muted">
@@ -99,7 +99,7 @@ const About = (props) => {
                     const image = experience.company === project.company ? project.image : null
                     if (image) {
                       return (
-                        <div className="project-link-wrapper">
+                        <div className="project-link-wrapper hidden-for-pdf">
                           <Link to={`/resume/projects#${project.anchor}`} className="project-link">
                             <div className="project-thumb-wrapper">
                               <img className="project-thumb" src={project.image} alt={project.name} />
@@ -121,7 +121,7 @@ const About = (props) => {
             )}
           </ul>
         </div>
-        <div className="card-section">
+        <div className="card-section hidden-for-pdf">
           <h4 className="section-header text-muted">
             <span>References</span>
           </h4>

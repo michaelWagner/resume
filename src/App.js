@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <Router>
         <div className="app">
-          <ul className="nav-container">
+          <ul className="nav-container hidden-for-pdf">
             <nav className="nav">
               <NavLink to={'/resume/about'} className="nav-btn">About</NavLink>
               <NavLink to={'/resume/projects'} className="nav-btn">Projects</NavLink>
