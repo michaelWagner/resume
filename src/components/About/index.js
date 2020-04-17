@@ -87,7 +87,11 @@ const About = (props) => {
                 <div className="dates text-muted">
                   <small><Moment format="MMM YYYY">{experience.startDate}</Moment></small>
                   {' - '}
-                  <small><Moment format="MMM YYYY">{experience.endDate}</Moment></small>
+                  {
+                    experience.endDate === 'Present'
+                    ? <small>{experience.endDate}</small>
+                    : <small><Moment format="MMM YYYY">{experience.endDate}</Moment></small>
+                  }
                 </div>
                 <ul className="highlights">
                   {experience.highlights.map((highlight) => 
