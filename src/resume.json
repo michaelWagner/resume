@@ -2,10 +2,10 @@
   "meta": { "theme": "kwan" },
   "basics": {
     "name": "Mikey Wagner",
-    "label": "Front End Developer",
+    "label": "Senior Software Engineer",
     "picture": "images/mikey-red.jpg",
     "email": "wagnerdmike@gmail.com",
-    "summary": "Front End Developer with a love for spicy foods, problem solving, and discovering new music.",
+    "summary": "Senior Software Engineer with a love for spicy foods, problem solving, and discovering new music.",
     "background": "Recently, I delivered a highly collaborative and scaled game where Google developers could reveal the date for the upcoming I/O conference by solving interactive puzzles. Previously, I have rapidly architected, implemented, and delivered responsive applications under tight deadlines using Scrum methodologies for companies like Honda, AT&T, AWS, and Intuit. During my time working with Honda, I was given the task of building a prototype for their upcoming car’s dashboard experience, and got to collaborate with the small R&D team. Additionally I was part of the team that built an enterprise level application for AT&T to help businesses dynamically select and configure complex VPN packages.",
     "location": {
       "city": "Los Angeles",
@@ -32,13 +32,26 @@
   },
   "work": [
     {
+      "company": "PacketFabric",
+      "position": "Senior Software Engineer",
+      "website": "https://www.packetfabric.com/",
+      "startDate": "2020-06-14",
+      "endDate": "Present",
+      "highlights": [
+        "Develop data driven and performant services and features",
+        "Created an internal component library for use across all applications",
+        "Architect new projects and refactor legacy codebases",
+        "Code reviews and mentoring"
+      ]
+    },
+    {
       "company": "Left Field Labs",
       "position": "Front End Developer (Google Contractor)",
       "website": "https://www.leftfieldlabs.com/",
       "startDate": "2019-11-01",
-      "endDate": "Present",
+      "endDate": "2020-05-19",
       "highlights": [
-        "Create and maintain responsive web applications across mutiple Google products",
+        "Create and maintain responsive web applications across multiple Google products",
         "Develop and test new features",
         "Participate in code reviews and growth sessions",
         "Debug development and production issues across multiple browsers and devices"
@@ -106,12 +119,31 @@
   ],
   "projects": [
     {
+      "name": "PacketFabric",
+      "description": "A highly interactive and visually exciting game built for Google developers to collaboratively reveal the dates for the upcoming Google I/O event.",
+      "image": "images/packetfabric-portal.png",
+      "highlights": [
+        "Built using AngularJS, Vue, Tailwind-ui, Storybook, Python, PostgreSQL",
+        "Innovative networking solutions for provisioning and cloud service integrations"
+      ],
+      "keywords": [
+        "PacketFabric", "NaaS", "Cloud Services"
+      ],
+      "url": "https://www.packetfabric.com",
+      "anchor": "packetfabric",
+      "roles": [
+        "Senior Software Engineer"
+      ],
+      "company": "PacketFabric",
+      "type": "application"
+    },
+    {
       "name": "Google IO Save the Date",
       "description": "A highly interactive and visually exciting game built for Google developers to collaboratively reveal the dates for the upcoming Google I/O event.",
       "image": "images/google-io.png",
       "highlights": [ 
         "Built using Preact, MobX, Firebase, PixiJs, and TypeScript",
-        "Praised by developers on twitter and reddit for being interactive, challening, and unable to hack"
+        "Praised by developers on twitter and reddit for being interactive, challenging, and unable to hack"
       ],
       "keywords": [
         "Google", "IO", "Events"
@@ -205,6 +237,7 @@
       "level": "Senior",
       "keywords": [
         "ReactJS",
+        "VueJS",
         "Angular",
         "AngularJS",
         "ES6",

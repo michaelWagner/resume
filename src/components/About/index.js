@@ -39,7 +39,7 @@ const About = (props) => {
 
                   {basics.profiles.map((profile) =>
                     <span className="social-item">
-                      <a href={profile.url} className="text-muted">
+                      <a href={profile.url} className="text-muted" target="_blank" rel="noopener noreferrer">
                         <i className={`fa fa-${profile.network.toLowerCase()} fa-2x`}></i></a>
                     </span>
                   )}
@@ -54,12 +54,14 @@ const About = (props) => {
           <h4 className="section-header text-muted">
             <span>About</span>
           </h4>
-          <p>Los-Angeles-based Front End Developer with a strong attention to
+          <p>Los-Angeles-based Senior Software Engineer with a strong attention to
             detail and a firm belief in the power of constant iteration.</p>
-          <p>Most recently, I delivered a highly collaborative and scaled game
+          <p>Currently, I work for Network-as-a-Service startup - <strong>PacketFabric </strong>
+            where I develop client facing products that help push the boundaries
+            of cloud computing. Previously, I delivered a highly collaborative and scaled game
               for <strong>Google</strong> where developers could reveal the date for the upcoming
-              Google I/O conference by solving interactive puzzles.</p>
-          <p>Previously, I have rapidly architected, implemented, and delivered
+              Google I/O conference by solving interactive puzzles, and have
+              rapidly architected, implemented, and delivered
               responsive applications under tight deadlines using Scrum
               methodologies for companies like <strong>Honda</strong>
               , <strong>AT&T</strong>
@@ -80,7 +82,7 @@ const About = (props) => {
                 <div className="header">
                   <strong>{experience.position}</strong> - {
                     experience.website
-                    ? <a href={experience.website}>{experience.company}</a>
+                    ? <a href={experience.website} target="_blank" rel="noopener noreferrer">{experience.company}</a>
                     : <span class="experience-company">{experience.company}</span>
                   }
                 </div>
