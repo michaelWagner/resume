@@ -120,7 +120,7 @@
   "projects": [
     {
       "name": "PacketFabric",
-      "description": "A highly interactive and visually exciting game built for Google developers to collaboratively reveal the dates for the upcoming Google I/O event.",
+      "description": "Created innovative tools to automate and simplify the way consumers provision and allocate their networks internally and across all major Cloud Service Providers.",
       "image": "images/packetfabric-portal.png",
       "highlights": [
         "Built using AngularJS, Vue, Tailwind-ui, Storybook, Python, PostgreSQL",
