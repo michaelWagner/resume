@@ -90,7 +90,7 @@ const About = (props) => {
                   }
                 </div>
                 <ul className="highlights">
-                  {experience.highlights.map((highlight, id) => 
+                  {experience.highlights.map((highlight, id) =>
                     <li className="highlight" key={id}>{highlight}</li>
                   )}
                 </ul>
