@@ -38,10 +38,10 @@
       "startDate": "2020-06-14",
       "endDate": "Present",
       "highlights": [
-        "Develop data driven and performant services and features",
-        "Created an internal component library for use across all applications",
-        "Architect new projects and refactor legacy codebases",
-        "Code reviews and mentoring"
+        "Lead developer on Cloud Router product that secures connectivity between CSPs, driving the most sales revenue for the business",
+        "Created internal component library, ensuring consistency, sandboxing, and efficiency across all applications using Tailwind and Storybook",
+        "Architected new projects and effectively refactored legacy codebases, improving maintainability and scalability leveraging Vue3, Angular, Tailwind, Python",
+        "Conduct thorough code reviews, provide constructive feedback, and mentor junior team members"
       ]
     },
     {
@@ -51,10 +51,11 @@
       "startDate": "2019-11-01",
       "endDate": "2020-05-19",
       "highlights": [
-        "Create and maintain responsive web applications across multiple Google products",
-        "Develop and test new features",
-        "Participate in code reviews and growth sessions",
-        "Debug development and production issues across multiple browsers and devices"
+        "Created and maintained responsive applications for multiple Google products, adhering to strict standards",
+        "Part of the small team that built and launched Google IO 2020's highly acclaimed Collaboration of the Cosmos",
+        "Developed new features, ensuring seamless cross-browser functionality using React, Preact, CSS3, Hugo, Firebase",
+        "Test and debug development and production issues",
+        "Participate in code reviews and team growth sessions, contributing to a collaborative and innovative environment"
       ]
     },
     {
@@ -64,10 +65,9 @@
       "startDate": "2017-08-01",
       "endDate": "2019-10-01",
       "highlights": [
-        "Build interactive and dynamic applications for high profile clients (Honda, AT&T, AWS, Intuit) on a fully distributed team using Angular 2+, React, AngularJS, and Vue",
-        "Use scrum methodologies to meet production deadlines and plan sprints",
-        "Maintain and develop features using modern development best practices and design patterns, participate in code reviews, pair programming and testing",
-        "Mentoring new developers and documenting processes"
+        "Built interactive and dynamic applications for high-profile clients, including Honda, AT&T, AWS, and Intuit",
+        "Utilized Angular 2+, React, AngularJS, and Vue to deliver engaging user experiences, with best practices and design patterns, enhancing code quality and maintainability",
+        "Mentored and onboarded new developers, documenting processes and actively participating in code reviews and QA"
       ]
     },
     {
@@ -77,9 +77,8 @@
       "startDate": "2015-09-01",
       "endDate": "2017-03-01",
       "highlights": [
-        "Work with interactive team to rapidly architect, implement, and deploy sites for clients such as Walmart, Publix, and Tresemme",
-        "Brand development using React, JavaScript, C#, Node.js, Asp.Net, jQuery, Grunt, and postgreSQL",
-        "Promote best practices and standards while developing with bleeding edge technologies"
+        "Collaborated with brand teams to rapidly architect, implement, and deploy sites for high-profile clients such as Walmart, Publix, and Tresemme",
+        "Developed sites using various technologies, including React, JavaScript, C#, Node.js, Asp.Net, Grunt, and PostgreSQL using best practices and standards"
       ]
     },
     {
@@ -121,9 +120,9 @@
     {
       "name": "PacketFabric",
       "description": "Created innovative tools to automate and simplify the way consumers provision and allocate their networks internally and across all major Cloud Service Providers.",
-      "image": "images/packetfabric-portal.png",
+      "image": "images/packetfabric-portal-dark.png",
       "highlights": [
-        "Built using AngularJS, Vue, Tailwind-ui, Storybook, Python, PostgreSQL",
+        "Built using Vue3, AngularJS, Tailwind-ui, Storybook, Python, PostgreSQL",
         "Innovative networking solutions for provisioning and cloud service integrations"
       ],
       "keywords": [
@@ -142,7 +141,7 @@
       "description": "A highly interactive and visually exciting game built for Google developers to collaboratively reveal the dates for the upcoming Google I/O event.",
       "image": "images/google-io.png",
       "highlights": [ 
-        "Built using Preact, MobX, Firebase, PixiJs, and TypeScript",
+        "Built using Preact, MobX, Firebase, PixiJS, and TypeScript",
         "Praised by developers on twitter and reddit for being interactive, challenging, and unable to hack"
       ],
       "keywords": [

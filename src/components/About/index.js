@@ -37,8 +37,8 @@ const About = (props) => {
                 </div>
                 <div className="socials-container">
 
-                  {basics.profiles.map((profile) =>
-                    <span className="social-item">
+                  {basics.profiles.map((profile, id) =>
+                    <span className="social-item" key={id}>
                       <a href={profile.url} className="text-muted" target="_blank" rel="noopener noreferrer">
                         <i className={`fa fa-${profile.network.toLowerCase()} fa-2x`}></i></a>
                     </span>
@@ -54,22 +54,16 @@ const About = (props) => {
           <h4 className="section-header text-muted">
             <span>About</span>
           </h4>
-          <p>Los-Angeles-based Senior Software Engineer with a strong attention to
-            detail and a firm belief in the power of constant iteration.</p>
-          <p>Currently, I work for Network-as-a-Service startup - <strong>PacketFabric </strong>
-            where I develop client facing products that help push the boundaries
-            of cloud computing. Previously, I delivered a highly collaborative and scaled game
-              for <strong>Google</strong> where developers could reveal the date for the upcoming
-              Google I/O conference by solving interactive puzzles, and have
-              rapidly architected, implemented, and delivered
-              responsive applications under tight deadlines using Scrum
-              methodologies for companies like <strong>Honda</strong>
-              , <strong>AT&T</strong>
-              , <strong>Walmart</strong>, <strong>AWS</strong>
-              ,  <strong>Intuit</strong>, and more.</p>
-          <p>When I’m not coding, you’ll usually find me slurping a deep bowl
-              of ramen (send any recommendations my way!), playing music, and/or
-              traveling the world—often at the same time.</p>
+          <p>
+            Senior Software Engineer with over 9 years of experience building
+            fast and responsive applications for high-impact clients. Skilled in
+            Vue, React, Angular, JavaScript, CSS, Tailwind, and TypeScript.
+          </p>
+          <p>
+            <em>
+              Fun fact: passionate musician that has traveled the world over and eaten far too many spicy foods.
+            </em>
+          </p>
         </div>
         <div className="card-section">
           <h4 className="section-header text-muted">
@@ -83,7 +77,7 @@ const About = (props) => {
                   <strong>{experience.position}</strong> - {
                     experience.website
                     ? <a href={experience.website} target="_blank" rel="noopener noreferrer">{experience.company}</a>
-                    : <span class="experience-company">{experience.company}</span>
+                    : <span className="experience-company">{experience.company}</span>
                   }
                 </div>
                 <div className="dates text-muted">
@@ -96,16 +90,16 @@ const About = (props) => {
                   }
                 </div>
                 <ul className="highlights">
-                  {experience.highlights.map((highlight) => 
-                    <li className="highlight">{highlight}</li>
+                  {experience.highlights.map((highlight, id) => 
+                    <li className="highlight" key={id}>{highlight}</li>
                   )}
                 </ul>
                 {
-                  projects.map((project) => {
+                  projects.map((project, id) => {
                     const image = experience.company === project.company ? project.image : null
                     if (image) {
                       return (
-                        <div className="project-link-wrapper hidden-for-pdf">
+                        <div className="project-link-wrapper hidden-for-pdf" key={id}>
                           <Link to={`/resume/projects#${project.anchor}`} className="project-link">
                             <div className="project-thumb-wrapper">
                               <img className="project-thumb" src={project.image} alt={project.name} />
@@ -134,7 +128,7 @@ const About = (props) => {
           <hr/>
           <div className="reference-list">
             {references.map((reference, id) =>
-              <>
+              <div key={id}>
                 <div className="reference-item">
                   <div className="quote">
                     {reference.quote}
@@ -144,7 +138,7 @@ const About = (props) => {
                   <div className="quote-author">{reference.name}</div>
                   <em><div className="quote-relation">{reference.relation}</div></em>
                 </div>
-              </>
+              </div>
             )}
           </div>
         </div>
@@ -154,10 +148,10 @@ const About = (props) => {
           </h4>
           <hr/>
           <div className="skills-list">
-            {skills.map((skillItem, id) =>
-              <div className="skill-item">
-                {skillItem.keywords.map((skill, id) =>
-                  <span className="skill" key={id}>{skill}</span>
+            {skills.map((skillItem, itemId) =>
+              <div className="skill-item" key={itemId}>
+                {skillItem.keywords.map((skill, skillId) =>
+                  <span className="skill" key={skillId}>{skill}</span>
                 )}
               </div>
             )}
