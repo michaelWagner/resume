@@ -1,22 +1,27 @@
-@import "~bootstrap/scss/bootstrap";
+@import '~bootstrap/scss/bootstrap';
 
 .app {
   text-align: center;
-  background-color: #fff;
+  background-color: #22272e;
+  color: #fff;
   padding: 20px 0;
-    font-family: 'Titillium Web', sans-serif
+  font-family: 'Titillium Web', sans-serif;
+}
+
+hr {
+  color: #fff;
 }
 
 .nav-container {
   margin: 0 10% 40px;
-  padding: 0; 
+  padding: 0;
   .nav {
     text-align: right;
     display: block;
     .nav-btn {
       margin-left: 20px;
       font-variant-caps: all-small-caps;
-      color: #E94048;
+      color: #e94048;
       font-size: 20px;
       font-weight: 900;
       &:hover {
@@ -26,9 +31,10 @@
   }
 }
 
-a, Link {
+a,
+Link {
   text-decoration: none !important;
-  color: #333;
+  color: #fff;
   &:hover {
     color: #777;
   }
@@ -46,9 +52,9 @@ a, Link {
 .card {
   border-radius: 5px;
   margin-bottom: 25px;
-  border-color: #fff;
-  padding: 5% 7%;
-  background-color: #fff;
+  border-color: #22272e;
+  padding: 0 7% 5% 7%;
+  background-color: #22272e;
   .card-section {
     text-align: left;
     &:not(:first-of-type) {
@@ -58,14 +64,14 @@ a, Link {
       font-size: 21px;
       font-variant-caps: all-small-caps;
       line-height: 1.2;
-      color: #E94048;
+      color: #e94048;
       i {
         margin-right: 10px;
         font-size: 20px;
         vertical-align: text-bottom;
       }
       span {
-        color: #E94048;
+        color: #e94048;
         font-weight: 900;
         vertical-align: middle;
       }
@@ -76,20 +82,20 @@ a, Link {
         margin-left: 28px;
       }
       a {
-        color: #E94048;
+        color: #e94048;
         font-weight: 700;
       }
     }
     .section-description {
       font-size: 20px;
-      color: #333;
+      color: #fff;
       line-height: 1.4;
     }
   }
 }
 
 .text-muted {
-  color: #777;
+  color: #acacac !important;
 }
 
 .hidden-for-pdf {

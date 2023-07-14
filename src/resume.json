@@ -1,4 +1,4 @@
-{ 
+{
   "meta": { "theme": "kwan" },
   "basics": {
     "name": "Mikey Wagner",
@@ -14,11 +14,6 @@
     },
     "profiles": [
       {
-        "network": "Instagram",
-        "username": "mikeythekid",
-        "url": "https://instagram.com/mikeythekid"
-      },
-      {
         "network": "Linkedin",
         "username": "mikeywagner",
         "url": "https://www.linkedin.com/in/mikeywagner/"
@@ -27,6 +22,11 @@
         "network": "Github",
         "username": "michaelwagner",
         "url": "https://github.com/michaelWagner"
+      },
+      {
+        "network": "Instagram",
+        "username": "mikeythekid",
+        "url": "https://instagram.com/mikeythekid"
       }
     ]
   },
@@ -125,14 +125,10 @@
         "Built using Vue3, AngularJS, Tailwind-ui, Storybook, Python, PostgreSQL",
         "Innovative networking solutions for provisioning and cloud service integrations"
       ],
-      "keywords": [
-        "PacketFabric", "NaaS", "Cloud Services"
-      ],
+      "keywords": ["PacketFabric", "NaaS", "Cloud Services"],
       "url": "https://www.packetfabric.com",
       "anchor": "packetfabric",
-      "roles": [
-        "Senior Software Engineer"
-      ],
+      "roles": ["Senior Software Engineer"],
       "company": "PacketFabric",
       "type": "application"
     },
@@ -140,18 +136,14 @@
       "name": "Google IO Save the Date",
       "description": "A highly interactive and visually exciting game built for Google developers to collaboratively reveal the dates for the upcoming Google I/O event.",
       "image": "images/google-io.png",
-      "highlights": [ 
+      "highlights": [
         "Built using Preact, MobX, Firebase, PixiJS, and TypeScript",
         "Praised by developers on twitter and reddit for being interactive, challenging, and unable to hack"
       ],
-      "keywords": [
-        "Google", "IO", "Events"
-      ],
-      "url": "https://events.google.com/io/mission/",
+      "keywords": ["Google", "IO", "Events"],
+      "url": "https://9to5google.com/2020/01/23/google-io-2020-puzzle/",
       "anchor": "googleio",
-      "roles": [ 
-        "Front End Developer"
-      ],
+      "roles": ["Front End Developer"],
       "company": "Left Field Labs",
       "type": "application"
     },
@@ -159,18 +151,14 @@
       "name": "AWS AI Game",
       "description": "Accomplice teamed up with Accenture to deliver an interactive game that integrated AWS’s machine learning and facial recognition at the 2017 AWS RE:INVENT convention in Las Vegas. Continuously learning from human input, the AI got smarter and smarter as AWS re:Invent went on. With every new player, it picked up new insight and became more skillful. So skillful, in fact, that we had to ultimately tweak the code to make sure it was still fun for participants to play.",
       "image": "images/aws4.jpg",
-      "highlights": [ 
+      "highlights": [
         "Built using Angular, Amazon Rekognition, and TypeScript",
         "Multi-player game that showcases AWS facial recognition tech",
         "Showcased at AWS convention in Las Vegas"
       ],
-      "keywords": [
-        "AWS", "Amazon", "AI"
-      ],
+      "keywords": ["AWS", "Amazon", "AI"],
       "anchor": "aws",
-      "roles": [ 
-        "Front End Developer"
-      ],
+      "roles": ["Front End Developer"],
       "company": "Accomplice",
       "type": "application"
     },
@@ -178,19 +166,15 @@
       "name": "Oppia",
       "description": "Oppia is an online and open source learning tool that enables anyone to easily create and share interactive activities. These activities, called explorations, simulate a one-on-one conversation with an intelligent tutor. Oppia supports learning by doing. Your exploration can include embedded code editors, dynamic world maps, and many other options for interaction.",
       "image": "images/oppia.png",
-      "highlights": [ 
+      "highlights": [
         "Built using AngularJS, Python, HTML5, jQuery, Bootstrap, Protractor, and Karma",
         "Opensource and highly extensible Ed-Tech platform",
         "Maintained by a small team of Google developers"
       ],
-      "keywords": [
-        "Google", "Opensource", "EdTech"
-      ],
+      "keywords": ["Google", "Opensource", "EdTech"],
       "url": "https://www.oppia.org/",
       "anchor": "oppia",
-      "roles": [ 
-        "Front End Developer"
-      ],
+      "roles": ["Front End Developer"],
       "company": "Oppia",
       "type": "application"
     }

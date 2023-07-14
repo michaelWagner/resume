@@ -26,7 +26,8 @@
         margin-top: 8px;
       }
       .contact-container {
-        .profile-email, .profile-location {
+        .profile-email,
+        .profile-location {
           display: block;
           font-size: 0.8em;
           line-height: 22px;
@@ -35,8 +36,9 @@
           i {
             margin-right: 10px;
           }
-          span, span a {
-            color: #333;
+          span,
+          span a {
+            color: #fff;
           }
         }
       }
@@ -59,7 +61,7 @@
           margin-right: 10px;
           vertical-align: middle;
           &:hover {
-            color: #333;
+            color: #fff;
           }
         }
       }
@@ -67,16 +69,18 @@
   }
 }
 
-.experience-list, .education-list {
+.experience-list,
+.education-list {
   padding: 0;
-  .experience-item, .education-item {
+  .experience-item,
+  .education-item {
     list-style: none;
     margin-bottom: 15px;
     .header {
       line-height: 1.5;
       a {
         opacity: 0.8;
-        color: #E94048;
+        color: #e94048;
         &:hover {
           opacity: 1;
         }
@@ -90,7 +94,7 @@
       }
       .experience-company {
         opacity: 0.8;
-        color: #E94048;
+        color: #e94048;
       }
     }
     .dates {
@@ -100,6 +104,7 @@
       padding: 0 28px;
       .highlight {
         font-size: 14px;
+        color: #ccc;
         line-height: 1.7;
         list-style: circle;
       }
@@ -111,7 +116,7 @@
         .project-link {
           .project-thumb-wrapper {
             .project-details {
-              color: #333;
+              color: #fff;
               text-decoration: none;
             }
           }
@@ -123,7 +128,7 @@
           width: 100%;
           .project-thumb {
             max-width: 435px;
-            width: 100%
+            width: 100%;
           }
           .project-details {
             color: #777;
@@ -131,7 +136,7 @@
             text-decoration: none !important;
             .project-header {
               font-size: 16px;
-              color: #E94048;
+              color: #e94048;
               opacity: 0.8;
               &:hover {
                 opacity: 1;
@@ -144,7 +149,8 @@
   }
 }
 
-.skills-list, .reference-list {
+.skills-list,
+.reference-list {
   .skill-item {
     .skill {
       margin-right: 7px;
@@ -157,7 +163,7 @@
     border-left: 9px solid #555;
     padding-left: 7%;
     .quote {
-      color: #444;
+      color: #aeaeae;
     }
   }
   .quote-details {
@@ -166,7 +172,7 @@
     }
     .quote-relation {
       font-size: 14px;
-      color: #444;
+      color: #aeaeae;
     }
   }
 }
