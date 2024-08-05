@@ -26,6 +26,10 @@ class App extends Component {
               element={<Projects resumeObj={resume} />}
             />
             <Route
+              path="/resume"
+              element={<Navigate to="/resume/about" replace />}
+            />
+            <Route
               path="/"
               element={<Navigate to="/resume/about" replace />}
             />
