@@ -23,7 +23,7 @@ const About = (props) => {
         <div className="profile">
           <div className="profile-container">
             <div className="profile-img">
-              <img alt={basics.name} src={basics.picture} />
+              <img alt={basics.name} src={basics.picture} loading="lazy" />
             </div>
             <div className="profile-details">
               <h3 className="name">{basics.name}</h3>
@@ -90,8 +90,8 @@ const About = (props) => {
                   }
                 </div>
                 <ul className="highlights">
-                  {experience.highlights.map((highlight, id) =>
-                    <li className="highlight" key={id}>{highlight}</li>
+                  {experience.highlights.map((highlight, idx) =>
+                    <li className="highlight" key={idx}>{highlight}</li>
                   )}
                 </ul>
                 {
@@ -102,7 +102,7 @@ const About = (props) => {
                         <div className="project-link-wrapper hidden-for-pdf" key={id}>
                           <Link to={`/resume/projects#${project.anchor}`} className="project-link">
                             <div className="project-thumb-wrapper">
-                              <img className="project-thumb" src={project.image} alt={project.name} />
+                              <img className="project-thumb" src={project.image} alt={project.name} loading="lazy" />
                               <div className="project-details">
                                 <div className="project-header">
                                   <span className="arrow-right">→</span> {project.name}

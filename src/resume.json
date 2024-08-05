@@ -38,24 +38,23 @@
       "startDate": "2020-06-14",
       "endDate": "Present",
       "highlights": [
-        "Lead developer on Cloud Router product that secures connectivity between CSPs, driving the most sales revenue for the business",
-        "Created internal component library, ensuring consistency, sandboxing, and efficiency across all applications using Tailwind and Storybook",
-        "Architected new projects and effectively refactored legacy codebases, improving maintainability and scalability leveraging Vue3, Angular, Tailwind, Python",
-        "Conduct thorough code reviews, provide constructive feedback, and mentor junior team members"
+        "Lead Engineer for the Cloud Router product, optimizing secure connectivity between cloud service providers such as AWS and Google. Played a key role in making Cloud Router the top revenue-generating product for the business",
+        "Develop an internal component library using Tailwind and Storybook, promoting consistency, sandboxing, and efficiency across all applications",
+        "Architect new projects and refactor legacy codebases, significantly improving maintainability and scalability with Vue3, React, Angular, Docker, Tailwind, and Python",
+        "Conduct comprehensive code reviews and mentor junior team members, fostering growth and creating a fun, collaborative environment"
       ]
     },
     {
       "company": "Left Field Labs",
-      "position": "Front End Developer (Google Contractor)",
+      "position": "Front End Engineer (Google Contractor)",
       "website": "https://www.leftfieldlabs.com/",
       "startDate": "2019-11-01",
       "endDate": "2020-05-19",
       "highlights": [
-        "Created and maintained responsive applications for multiple Google products, adhering to strict standards",
-        "Part of the small team that built and launched Google IO 2020's highly acclaimed Collaboration of the Cosmos",
-        "Developed new features, ensuring seamless cross-browser functionality using React, Preact, CSS3, Hugo, Firebase",
-        "Test and debug development and production issues",
-        "Participate in code reviews and team growth sessions, contributing to a collaborative and innovative environment"
+        "Engineered and maintained responsive applications for various Google products, consistently meeting stringent quality standards",
+        "Key contributor on the small team that developed and launched the highly acclaimed Collaboration of the Cosmos for Google I/O 2020",
+        "Implemented new features ensuring seamless cross-browser functionality, leveraging React, Preact, CSS3, Hugo, and Firebase",
+        "Actively participated in code reviews and team growth sessions, fostering a collaborative and innovative work environment"
       ]
     },
     {
@@ -65,9 +64,8 @@
       "startDate": "2017-08-01",
       "endDate": "2019-10-01",
       "highlights": [
-        "Built interactive and dynamic applications for high-profile clients, including Honda, AT&T, AWS, and Intuit",
-        "Utilized Angular 2+, React, AngularJS, and Vue to deliver engaging user experiences, with best practices and design patterns, enhancing code quality and maintainability",
-        "Mentored and onboarded new developers, documenting processes and actively participating in code reviews and QA"
+        "Developed interactive and dynamic applications for high-profile clients such as Honda, AT&T, AWS, and Intuit",
+        "Leveraged React, Angular, AngularJS, and Vue to deliver engaging user experiences, focusing on best practices, maintainability, documenting processes, and actively participating in code reviews and QA to ensure high standards"
       ]
     },
     {
@@ -77,8 +75,8 @@
       "startDate": "2015-09-01",
       "endDate": "2017-03-01",
       "highlights": [
-        "Collaborated with brand teams to rapidly architect, implement, and deploy sites for high-profile clients such as Walmart, Publix, and Tresemme",
-        "Developed sites using various technologies, including React, JavaScript, C#, Node.js, Asp.Net, Grunt, and PostgreSQL using best practices and standards"
+        "Partnered with design teams to quickly architect, implement, and deploy websites for Fortune 100 companies such as Walmart, Publix, and more",
+        "Engineered fast and responsive sites using React, JavaScript, C#, Node.js, ASP.NET, Grunt, and PostgreSQL, consistently following best practices and standards"
       ]
     },
     {
@@ -88,9 +86,9 @@
       "startDate": "2013-06-01",
       "endDate": "2017-10-01",
       "highlights": [
-        "Designed and developed the music staff widget, a draggable/droppable interface in JavaScript & Python that I created to teach music theory intuitively",
-        "TDD in Jasmine and Karma, hotfixes, feature implementation, and release documentation",
-        "Partnered with a small team of Google developers to develop and test platform"
+        "Designed and developed the music staff widget, a draggable/droppable interface in JavaScript and Python, to teach music theory intuitively",
+        "Utilized Test-Driven Development (TDD) with Jasmine and Karma for hotfixes, feature implementation, and release documentation",
+        "Partnered with a small team of Google developers to develop and test a robust platform, ensuring high-quality performance and user experience"
       ]
     },
     {
@@ -99,9 +97,9 @@
       "startDate": "2017-03-01",
       "endDate": "2017-08-01",
       "highlights": [
-        "Rapidly build websites and custom WordPress themes for multiple clients",
-        "Pixel perfect and responsive front-end implementations per designer’s mocks",
-        "Regular maintenance and security updates to existing sites"
+        "Rapidly built websites and custom WordPress themes for multiple clients",
+        "Implemented pixel-perfect and responsive front-end designs based on designer's mockups",
+        "Conducted regular maintenance and security updates for existing sites"
       ]
     },
     {
@@ -111,7 +109,7 @@
       "startDate": "2010-08-01",
       "endDate": "Present",
       "highlights": [
-        "Toured internationally, performed, and released albums on Warner Bros",
+        "Toured internationally, performed live, and released albums on Warner Bros Records",
         "Made appearances on television and radio including the Tonight Show, Conan, Jimmy Kimmel, and KROQ"
       ]
     }

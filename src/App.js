@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Redirect, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route, NavLink, Routes, Navigate } from 'react-router-dom';
 import './style.scss';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -16,15 +16,20 @@ class App extends Component {
               <NavLink to={'/resume/projects'} className="nav-btn">Projects</NavLink>
             </nav>
           </ul>
-          <Route
-            exact path={'/resume/about'}
-            render={({ match }) => <About resumeObj={resume} />}
-          />
-          <Route
-            exact path={'/resume/projects'}
-            render={({ match }) => <Projects resumeObj={resume} />}
-          />
-          <Redirect exact from="/" to={'/resume/about'} />
+          <Routes>
+            <Route
+              path="/resume/about"
+              element={<About resumeObj={resume} />}
+            />
+            <Route
+              path="/resume/projects"
+              element={<Projects resumeObj={resume} />}
+            />
+            <Route
+              path="/"
+              element={<Navigate to="/resume/about" replace />}
+            />
+          </Routes>
         </div>
       </Router>
     );

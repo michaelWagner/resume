@@ -19,7 +19,7 @@ const Projects = (props) => {
           }
           <div className="card-section" id={project.anchor}>
             <div className="project-image-container">
-              <img src={project.image} alt={project.name} />
+              <img src={project.image} alt={project.name} loading="lazy" />
             </div>
             <h4 className="section-header">
               {
@@ -36,8 +36,8 @@ const Projects = (props) => {
               <small>{project.description}</small>
             </div>
             <ul className="project-highlights text-muted">
-              {project.highlights.map((highlight) =>
-                <li className="highlight">{highlight}</li>
+              {project.highlights.map((highlight, idx) =>
+                <li key={idx} className="highlight">{highlight}</li>
               )}
             </ul>
           </div>

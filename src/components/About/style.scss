@@ -1,6 +1,7 @@
 .profile {
   .profile-container {
     display: flex;
+    color: #fff;
     flex-direction: column;
     @media (min-width: 768px) {
       flex-direction: row;
@@ -36,7 +37,7 @@
             margin-right: 10px;
           }
           span, span a {
-            color: #333;
+            color: #fff;
           }
         }
       }
@@ -59,7 +60,7 @@
           margin-right: 10px;
           vertical-align: middle;
           &:hover {
-            color: #333;
+            color: #fff;
           }
         }
       }
@@ -74,6 +75,7 @@
     margin-bottom: 15px;
     .header {
       line-height: 1.5;
+      color: #fff;
       a {
         opacity: 0.8;
         color: #E94048;
@@ -99,6 +101,7 @@
     .highlights {
       padding: 0 28px;
       .highlight {
+        color: #ccc;
         font-size: 14px;
         line-height: 1.7;
         list-style: circle;
@@ -111,7 +114,7 @@
         .project-link {
           .project-thumb-wrapper {
             .project-details {
-              color: #333;
+              color: #fff;
               text-decoration: none;
             }
           }
@@ -126,7 +129,7 @@
             width: 100%
           }
           .project-details {
-            color: #777;
+            color: #eee;
             margin-top: 5px;
             text-decoration: none !important;
             .project-header {
@@ -157,7 +160,7 @@
     border-left: 9px solid #555;
     padding-left: 7%;
     .quote {
-      color: #444;
+      color: #ccc;
     }
   }
   .quote-details {
@@ -166,7 +169,7 @@
     }
     .quote-relation {
       font-size: 14px;
-      color: #444;
+      color: #ccc;
     }
   }
 }
